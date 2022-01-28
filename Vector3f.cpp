@@ -7,6 +7,7 @@ Vector3f::Vector3f(float _x = 0.0f, float _y = 0.0f, float _z = 0.0f) {
 	z = _z;
 }
 
+// Vectors used in game
 Vector3f Vector3f::operator+(Vector3f& v) {
 	return Vector3f(x + v.x, y + v.y, z + v.z);
 }
